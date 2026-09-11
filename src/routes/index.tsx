@@ -68,7 +68,7 @@ function Dashboard() {
   return (
     <AppShell
       title="Dashboard"
-      description="Good day, Rotondwa — here's your AI workspace at a glance."
+      description="Here's your AI workspace at a glance."
     >
       <section className="brand-gradient overflow-hidden rounded-2xl p-6 text-primary-foreground sm:p-8">
         <Badge variant="secondary" className="mb-4">
