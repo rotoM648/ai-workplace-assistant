@@ -1,86 +1,111 @@
-# AI Workplace Assistant
+AI Workplace Productivity Assistant
+Project Overview
 
-Build a modern, responsive SaaS-style web application called AI Workplace Productivity Assistant.
+AI Workplace Productivity Assistant is a modern, responsive web application designed to help professionals improve workplace productivity using AI-generated content and recommendations.
 
-Create a clean professional dashboard using light grey and purple as the main colours. Include a left sidebar navigation and responsive design for desktop, tablet and mobile.
+The application provides AI-powered tools for creating professional emails, planning tasks and schedules, and researching or summarising information. It is designed with a clean SaaS-style dashboard that is simple, professional and easy to use.
 
-Main AI Features
+Responsible AI: AI-generated content should always be reviewed for accuracy, relevance, privacy and appropriateness before being used in a professional environment.
 
-1. Smart Email Generator
-
+Features Implemented
+📧 Smart Email Generator
 Generate professional workplace emails using AI.
+Supports multiple writing tones:
+Formal
+Friendly
+Persuasive
+AI-generated emails can be edited before use.
+Copy generated email content easily.
+📅 AI Task Planner
+Create daily and weekly schedules using AI.
+Add tasks, deadlines and priorities.
+AI helps organise and prioritise tasks.
+Generated schedules can be edited.
+🔎 AI Research Assistant
+Enter a topic, question or article.
+Generate AI-powered summaries.
+Identify key points and important information.
+Provide AI-generated insights and recommendations.
+Research results can be edited and copied.
+📊 Modern Dashboard
+Clean SaaS-style interface.
+Sidebar navigation.
+Responsive design for desktop, tablet and mobile.
+Light grey and purple colour scheme.
+Easy-to-use cards, forms, buttons and text areas.
+Loading and feedback states.
+Technologies and Tools Used
+Frontend: HTML, CSS, JavaScript
+UI Design: Responsive SaaS dashboard design
+AI: AI-powered content generation
+Development Tool: Lovable
+Version Control: Git & GitHub
+Design Theme: Light grey and purple
 
-Tones: Formal, Friendly, Persuasive.
+Note: This project is a frontend-only application and does not require a backend or database.
 
-Allow users to edit and copy the generated email.
+Setup Instructions
+1. Clone the Repository
+git clone https://github.com/your-username/ai-workplace-productivity-assistant.git
+2. Open the Project
 
-2. AI Task Planner
+Navigate into the project folder:
 
-Generate AI-powered daily and weekly schedules.
+cd ai-workplace-productivity-assistant
+3. Install Dependencies
 
-Allow users to enter tasks, deadlines and priorities.
+If the project contains a package.json file, install the required dependencies:
 
-AI should organise and prioritise tasks effectively.
+npm install
+4. Run the Application
 
-Allow generated schedules to be edited.
+Start the development server:
 
-3. AI Research Assistant
+npm run dev
 
-Allow users to enter a topic, question or article text.
+The application will then be available through the local development URL provided in the terminal.
 
-AI should generate summaries, key points, insights and recommendations.
+5. Open in a Browser
 
-Make all AI-generated results editable and easy to copy.
+Open the provided local URL in a modern web browser such as Chrome, Edge or Firefox.
 
-UI Requirements
+Project Structure
+AI Workplace Productivity Assistant
+│
+├── Dashboard
+├── Smart Email Generator
+├── AI Task Planner
+├── AI Research Assistant
+├── Responsive UI
+└── README.md
+Team Members
+Individual Project
 
-Modern SaaS dashboard design.
+Developer: [Your Name]
 
-Sidebar navigation: Dashboard, Email Generator, Task Planner, Research Assistant.
+If this project was completed as a team, replace this section with the names and roles of each team member.
 
-Clean cards, buttons, forms and text areas.
+Example:
 
-Use light grey backgrounds with purple accents.
-
-Fully responsive.
-
-Include loading states and clear success/error messages.
-
-No registration page, login page or sign-up page.
-
-Frontend only; no backend or database.
-
-Use realistic sample content to demonstrate the features.
-
-AI Behaviour
-
-All generated content and responses must be AI-generated.
-Use clear, structured AI prompts for each feature.
-AI outputs must always be editable before the user copies or uses them.
-
+Team Member	Role
+Your Name	Project Lead / Developer
+Team Member 2	UI/UX Designer
+Team Member 3	AI Integration
+Team Member 4	Testing & Documentation
 Responsible AI
 
-Include a visible disclaimer stating that AI-generated content should be reviewed for accuracy, relevance, privacy and appropriateness before being used in professional situations.
+This application uses AI to generate workplace content and recommendations. AI output may contain inaccurate, incomplete or inappropriate information.
 
-Focus on making the application simple, polished, intuitive and professional, similar to a modern workplace SaaS productivity platform.
+Users should:
 
-This project was built with [Lovable](https://lovable.dev).
+Review AI-generated content before using it.
+Avoid entering confidential or sensitive workplace information.
+Verify important facts and recommendations.
+Use professional judgement when applying AI-generated suggestions.
+Project Purpose
 
-## Build with Lovable
+The purpose of this project is to demonstrate how AI can be integrated into workplace productivity tools to assist professionals with communication, task management, research and decision-making.
 
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/56f165a5-044c-4a51-96f8-8a9a55d28093).
+License
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
-```
+This project is created for educational and demonstration purposes.
