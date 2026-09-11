@@ -38,7 +38,7 @@ export const Route = createFileRoute("/task-planner")({
       { name: "twitter:card", content: "summary_large_image" },
     ],
   }),
-  component: TaskPlanner;
+  component: TaskPlanner,
 });
 
 type Task = { id: string; name: string; deadline: string; priority: "High" | "Medium" | "Low" };
